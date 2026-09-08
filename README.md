@@ -231,21 +231,3 @@ La estimación cubre:
 - Documentación final de este README.
 
 La cifra incluye todo el trabajo activo realizado en esta conversación: análisis, coordinación de agentes, implementación, revisión, correcciones, configuración de lint, verificaciones técnicas, prueba de API y documentación final. Es una estimación basada en la ejecución de herramientas y agentes; no incluye el tiempo de espera entre resultados ni el intervalo de reloj completo de la conversación.
-
-## 10. Límites conocidos y siguiente iteración
-
-No se implementaron:
-
-- Persistencia real de ediciones.
-- Fusión real de duplicados.
-- Matching con `kb-propiedades-voz.json`.
-- Agente de voz LiveKit.
-- Autenticación y autorización por organización.
-- Paginación o búsqueda avanzada.
-- Tests unitarios automatizados.
-
-La siguiente iteración recomendable sería añadir persistencia auditada para las ediciones, tests unitarios de normalización y autorización por organización antes de usar datos reales.
-
-## 11. Nota de dependencias
-
-La aplicación compila y funciona con Next.js `14.2.31`. `npm audit --omit=dev` reporta vulnerabilidades altas asociadas a esa rama de Next.js y PostCSS. No se aplicó `npm audit fix --force` porque propone una actualización mayor con cambios de compatibilidad; para producción se debe planificar esa actualización explícitamente.
