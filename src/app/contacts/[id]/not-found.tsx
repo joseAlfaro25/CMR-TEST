@@ -1,0 +1,1 @@
+export default function NotFound() { return <main className="shell"><div className="state-card"><h1>Contacto no encontrado</h1><p>Este contacto no existe o ya no está disponible.</p><a href="/contacts" className="button">Volver a contactos</a></div></main>; }
